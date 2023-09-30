@@ -1,0 +1,9 @@
+[gd_scene load_steps=3 format=3 uid="uid://b20hq8x60enfe"]
+
+[ext_resource type="ArrayMesh" uid="uid://dkcl2gsqv47jk" path="res://Resources/Models/Axis.obj" id="1_7s5m0"]
+[ext_resource type="Script" path="res://Prefab/Sample/SampleTarget.cs" id="2_aev4k"]
+
+[node name="SampleTarget" type="MeshInstance3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1.2)
+mesh = ExtResource("1_7s5m0")
+script = ExtResource("2_aev4k")
