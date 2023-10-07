@@ -1,7 +1,3 @@
-using System;
-using Godot;
-
-#nullable enable
 interface IMechanism<Gen, Pos>
     where Gen : struct
     where Pos : struct {
